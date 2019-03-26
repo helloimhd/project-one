@@ -1,0 +1,118 @@
+ body {
+ 	/*cursor: url("../images/watermelonCursor.png"), auto;*/
+ 	cursor: url("https://img.icons8.com/material-two-tone/24/000000/cursor.png"), auto;
+ }
+
+ h1 {
+ 	text-align: center;
+ 	font-family: 'Freckle Face', cursive;
+ 	font-size: 50px !important;
+ }
+/*
+ .main-container {
+ 	position: relative;
+ }*/
+
+ .game-container {
+ 	position: relative;
+	width: 350px;
+	height: 350px;
+	background-color: black;
+	margin: auto;
+}
+
+/*.bar {
+	width: 60px;
+	height: 15px;
+	background-color: #ff82f8;*/
+/*	align-self: flex-end;*/
+/*	position: absolute;
+	top: 335px;
+}
+*/
+.bar-container {
+	width: 60px;
+	height: 60px;
+
+/*	align-self: flex-end;*/
+	position: absolute;
+	top: 303px;
+}
+
+img {
+	width: 45px;
+	height: 45px;
+}
+
+.fruits {
+	width: 55px;
+	height: 40px;
+	font-size: 40px;
+	position: absolute;
+}
+
+.lives {
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	position: absolute;
+	bottom: 300px;
+	right: 365px;
+}
+
+
+#scoreBoard {
+	/*border: 2px solid red;*/
+	margin: auto;
+	padding: 10px;
+	width: 400px;
+	text-align: center;
+	font-family: 'Margarine', cursive;
+	font-size: 30px;
+
+}
+
+#deduct {
+	position: absolute;
+	top: 310px;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 15px;
+	color: white;
+}
+
+#start {
+	width: 350px;
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 45px;
+	position: absolute;
+	top: 100px;
+	cursor: url("https://img.icons8.com/wired/64/ffffff/cursor.png"), auto;
+}
+
+#gameOver {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 65px;
+	position: absolute;
+	top: 65px;
+}
+
+#one, #two, #three {
+	padding-bottom: 5px;
+}
+
+#playAgain {
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-family: 'Press Start 2P', cursive;
+	font-size: 35px;
+	position: absolute;
+	top: 220px;
+	cursor: url("https://img.icons8.com/wired/64/ffffff/cursor.png"), auto;
+}
